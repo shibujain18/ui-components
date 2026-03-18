@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #border {
+        background-color: blueviolet;
+        height: 200px;
+        width: 200px;
+        padding: 70px;
+        margin: 20px;
+        border-right: dashed rgb(91, 79, 79) 20px;
+        border-left: solid black 20px;
+        border-top: double red 20px ;
+        border-bottom: dotted pink 20px;
+    }
+    #border ~ div {
+        background-color: blueviolet;
+        height: 200px;
+        width: 200px;
+        padding: 70px;
+        margin: 20px
+    
+    }
+
+
+</style>
+<body>
+    <div id="border">
+        <h1>border</h1>
+    </div> 
+
+    <div>
+        <h1>border</h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+      .ff {
+        height: 300px;
+        width: 400px;
+        border: solid rgb(13, 10, 10) 1px;
+        margin-left: 200px;
+        padding: 20px;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1px;
+        flex-direction: column;
+        /* justify-items: center; */
+        
+
+        
+        & input {
+          height: 50px;
+          width: 360px;
+          margin-left: 20px;
+          border-radius: 5px;
+          /* border: none; */
+          border: solid black 1px;
+          padding: 20px;
+          margin: 5px;
+          margin-top: 20px;
+          font-size: 18px;
+          
+        }
+        & h2{
+            font-size: 15px;
+            text-align: center;
+        }
+      }
+       h1 {
+          text-align: center;
+          color: rgb(10, 135, 252);
+          font-size: 50px;
+          margin-top: 50px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1 class="fh">facebook</h1>
+    <div class="ff">
+        <h2>LOG IN TO FACEBOOK</h2>
+      <input
+        type="text"
+        placeholder="mobile number or email address"
+      /><br /><br />
+
+      <input type="text" placeholder="password" />
+    </div>
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facebook – log in or sign up</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .wrapper{
+      display: flex;
+      gap: 50px;
+      align-items: center;
+    }
+
+    .left h1{
+      color: #1877f2;
+      font-size: 56px;
+      margin-bottom: 10px;
+    }
+
+    .left p{
+      font-size: 20px;
+    }
+
+    .card{
+      background: #fff;
+      width: 350px;
+      padding: 18px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .card input{
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 15px;
+    }
+
+    .login-btn{
+      width: 100%;
+      padding: 12px;
+      background: #1877f2;
+      color: #fff;
+      font-size: 17px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .forgot{
+      text-align: center;
+      margin: 12px 0;
+      color: #1877f2;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .line{
+      height: 1px;
+      background: #ddd;
+      margin: 14px 0;
+    }
+
+    .create-btn{
+      background: #42b72a;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 60%;
+      display: block;
+      margin: 0 auto;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="left">
+      <h1>facebook</h1>
+      <p>Facebook helps you connect and share<br>with the people in your life.</p>
+    </div>
+
+    <div class="card">
+      <input type="text" placeholder="Email address or phone number">
+      <input type="password" placeholder="Password">
+
+      <button class="login-btn">Log in</button>
+
+      <div class="forgot">Forgotten password?</div>
+
+      <div class="line"></div>
+
+      <button class="create-btn">Create new account</button>
+    </div>
+
+  </div>
+</body>
+</html>
+

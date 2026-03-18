@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+    /*universal selector >> yeh selector pure page par apply hota hai*/
+    /* * { 
+        font-size: 20px;
+        background-color: red;
+    }  */
+
+      /* descendant selector >> yeh selector dad or uske child ko select karta hai /or  bus pehli div or uske andr ke div ko style denga  */
+        /* #the_cat h1{
+        color: blue;            
+      } */
+
+      /* child selector >> yeh bus child ko style karta hai or ya div ke andr ke div ko hi style karta hai */
+        /* #the_cat >  h1{
+        color: blue;
+     } */
+
+     /* sibling selector >> yeh or nayi div ko style karenga for ex: chacha*/
+        /* #the_cat ~ div  {
+            background-color: rgb(225, 34, 34);
+        } */
+
+        /* adjacent sibling selector >> yeh selector bus ek or pehli nayi div ko hi style karega   */
+
+        #the_cat + div{
+        color: brown;
+    } 
+    
+</style>
+<body>
+    <div id="the_cat">
+        <h1>dog</h1>
+        <p>dog have for leg</p>
+        <p>dog can smell good</p>
+        <P>dog are nice</P>
+        <div>
+            <h1>cow </h1>
+            <P>cow gives milk</P>
+            <p>cow are big</p>
+            <P>cow are important</P>
+        </div>
+    </div>
+
+    <div>
+        <h1>cars</h1>
+        <p>there IS BMW</p>
+        <p>there is ferrari</p>
+        <P>there is g wagon</P>
+    </div>
+    <div>
+       <h1>comapny</h1>
+        <p>there IS BMW</p>
+        <p>there is ferrari</p>
+        <P>there is g wagon</P> 
+    </div>
+</body>
+</html>
